@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../mainPage/main.css">
+    <title>main page</title>
+</head>
+<body>
+    <section class="containar">
+        <!-- feeds nav -->
+        <nav class="topPage">
+            <div class="icons">
+                <a href="#" class="active"><i class="fas fa-home"></i></a>
+                <a href="#"><i class="fas fa-hashtag"></i></a>
+                <a href="#"><i class="far fa-bell"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search Twirrer" class="search-bar-input dark-mode-2 light-text border">
+            </div>
+            <div class="user">
+                <div class="user-img-wrapper">
+                    <img src="../assests/user4.jpg" alt="">
+                </div>
+               
+                <h1 id="profilecardname" class="user-link light-text">   </h1>
+                     <i class="fas fa-chevron-down"></i>
+            </div>
+        </nav>
+          <!-- feeds content -->
+          <div class="containar-content">
+              <!-- tweet box -->
+        <div class="box">
+           <img src="../assests/user4.jpg" class="img-1" alt=""> 
+            <div class="ml56px">
+                <div class="posttweettacontainer">
+                    <textarea id="posttweetta" class="posttweetta" placeholder="What's happening?"></textarea>
+                    <div class="posttweetcountcont">
+                        <span class="posttweetcount"><span id="totalchars">0</span><span>/250</span>
+                    </div>
+                </div>
+              
+                    <button id="posttweetbut" class="posttweetbut"> <i class="fas fa-feather-alt"> Post</i></button>
+                
+            </div> 
+            
+        </div>
+     
+        </div> 
+        <div id="tweets">
+      
+
+        </div>
+            </div>
+
+         <!-- sidebar -->
+         <div class="sidebar-wrapper">
+            <div class="sidebar dark-mode-1">
+                <div class="sidebar-header border">
+                    <h2 class="light-text">Account info</h2>
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="sidebar-user">
+                    <div class="sidebar-user-img">
+                        <img src= "../assests/user4.jpg"alt="">
+                    </div>
+                    <span>+</span>
+                </div>
+                <div class="sidebar-user-info light-text">
+                    <h4 id="username"></h4>
+                   
+                  
+                </div>
+                <div class="following light-text">
+                    <p class="following-paragraph"><span>45</span> Following</p>
+                    <p class="following-paragraph"><span>32</span> Followers</p>                         
+                </div>
+                <div class="sidebar-list-1 border">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
+                        <li><a href="#"><i class="far fa-list-alt"></i>Lists</a></li>
+                        <li><a href="#"><i class="far fa-bookmark"></i>Bookmarks</a></li>
+                        <li><a href="#"><i class="fab fa-adversal"></i>Ads</a></li>
+                        <li><a href="#"><i class="fas fa-chart-line"></i>Analytics</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-list-2">
+                    <ul>
+                        <li><a href="#">Settings and Privacy</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Log Out</a></li>
+                    </ul>
+                </div>
+
+       </section>
+    
+<script src="../mainPage/main.js"></script>
+</body>
+</html>
