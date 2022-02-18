@@ -1,9 +1,4 @@
 
-##twitter-clone
-This is a clone of Twitter built using HTML, CSS and JavaScript. 
-
-
-
 ## The project consists of 3 pages: 
 * introduction Page
 * login Page 
