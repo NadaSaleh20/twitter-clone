@@ -1,6 +1,5 @@
 
-#twitter-clone
-
+##twitter-clone
 This is a clone of Twitter built using HTML, CSS and JavaScript. 
 
 
